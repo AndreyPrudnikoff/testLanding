@@ -1,0 +1,31 @@
+{
+  "name": "testlanding",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyPrudnikoff/testLanding.git"
+  },
+  "keywords": [
+    "landing"
+  ],
+  "author": "Prudnikoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreyPrudnikoff/testLanding/issues"
+  },
+  "homepage": "https://github.com/AndreyPrudnikoff/testLanding#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0"
+  }
+}

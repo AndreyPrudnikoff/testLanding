@@ -1,0 +1,215 @@
+$bg_color: #F3FCFF;
+$primary-color: #005570;
+$secondary-color: #2DAFD7;
+
+
+body, html {
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+body {
+  background-color: $bg_color;
+
+}
+
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+
+a, button {
+  text-transform: uppercase;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  font-size: 44px;
+  color: $primary-color;
+  margin-bottom: 40px;
+  a {
+    color: $secondary-color;
+  }
+
+  a:hover {
+    color: $secondary-color;
+  }
+}
+
+header.container {
+  margin-bottom: 100px;
+}
+
+header, main > form {
+  .btn {
+    background-color: #fff;
+    color: $secondary-color;
+    border: 2px solid #2DAFD7;
+    border-radius: 5px;
+    margin-top: 1em;
+    line-height: 150%;
+    font-size: 15px;
+    padding: 15px;
+    transition: color .5s, background-color .5s;
+  }
+
+  .btn:hover {
+    background-color: $secondary-color;
+    color: #fff;
+  }
+  .btn:active {
+    transform: scale(0.98);
+  }
+}
+
+.wrap_logo {
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 2em;
+  }
+
+  .logo_header {
+    margin-top: 1em;
+    font-size: 24px;
+    line-height: 28px;
+    color: $secondary-color;
+  }
+}
+
+section {
+  margin-bottom: 120px;
+  background-color: #fff;
+  border-radius: 5px;
+  div {
+    h2 {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 150%;
+      text-align: center;
+      text-transform: uppercase;
+      color: #195B84;
+    }
+    h3 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 122.6%;
+      text-align: center;
+      letter-spacing: 0.04em;
+      color: #195B84;
+    }
+  }
+  .main_bg {
+    width: 270px;
+    height: 570px;
+    background: url(/img/phone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 100px;
+  }
+  form {
+    .btn {
+      background-color: $secondary-color;
+      color: #fff;
+      border: 2px solid $secondary-color;
+      border-radius: 5px;
+      margin-top: 1em;
+      line-height: 150%;
+      font-size: 15px;
+      padding: 15px;
+    }
+
+    .btn:hover {
+      background-color: #fff;
+      color: $secondary-color;
+    }
+  }
+
+  .form-control, .btn {
+    width: 380px;
+    height: 60px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding-left: 4em;
+  }
+  .tel {
+    background-image: url("/img/phone_icon.svg");
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+  }
+  .email {
+    background-image: url("/img/icons_mail.svg");
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+  }
+  .user {
+    background-image: url("/img/icon_user.svg");
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+  }
+
+}
+.profit {
+  height: 200px;
+  align-items: center;
+  div {
+    width: 186px;
+  }
+}
+.last {
+  h2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 122.6%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #195B84;
+  }
+  div {
+    max-width: 388px;
+    background-color: #F4F9FF;
+    padding: 15px;
+    border-radius: 5px;
+    display: grid;
+    gap: 20px;
+    h2 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 122.6%;
+      text-align: center;
+      letter-spacing: 0.04em;
+      color: #2DAFD7;
+      text-align: left;
+    }
+    h3 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 122.6%;
+      letter-spacing: 0.04em;
+      color: #195B84;
+      text-align: left;
+    }
+  }
+}
+
+
