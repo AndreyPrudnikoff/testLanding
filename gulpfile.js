@@ -21,6 +21,6 @@ gulp.task('watcher', function () {
     });
 
     gulp.watch("*.html").on("change", reload);
-    gulp.watch("./styles/*.scss").on("change", reload);
+    gulp.watch("*.js").on("change", reload);
     gulp.watch('./styles/*.scss', gulp.series('compile-scss'), reload);
 });

@@ -113,12 +113,6 @@ section {
     }
   }
   .main_bg {
-    width: 270px;
-    height: 570px;
-    background: url(/img/phone.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     margin-right: 100px;
   }
   form {
@@ -182,7 +176,6 @@ section {
     color: #195B84;
   }
   div {
-    max-width: 388px;
     background-color: #F4F9FF;
     padding: 15px;
     border-radius: 5px;
@@ -211,5 +204,23 @@ section {
     }
   }
 }
+.left_col, .right_col {
+  width: 388px;
+}
 
+// Экстрамалые девайсы («портретные телефоны», < 576px)
+@media screen and (max-width: 575.98px) {  }
 
+// Малые девайсы («ландшафтные», >= 575px)
+@media screen and (min-width: 576px) and (max-width: 767.98px) {  }
+// Средние девайсы («таблетки», >= 768px) 
+@media screen and (min-width: 768px) and (max-width: 991.98px) { 
+  .main_bg {
+    margin-right: 0;
+  }
+  .wrap_start {
+    &__img {
+      display: none;
+    }
+  }
+ } 
